@@ -1,0 +1,15 @@
+package naukajavy;
+
+import java.util.*;
+
+class Ocena {
+	private String imie;
+	private String nazwisko;
+	private String wartoœæ;
+	private String przedmiot;
+	private String nazwisko_nauczyciela;
+	
+	public Ocena(String imie)
+	
+	
+}

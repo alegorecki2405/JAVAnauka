@@ -1,0 +1,15 @@
+package naukajavy;
+
+public class Zadanie3_1 {
+
+	public static void main(String[] args) {
+		Ocena ocenka1 = new Ocena("olek");
+		Ocena ocenka2 = new Ocena("stszek");
+		Field ocenka1imie = Ocena.class.getDeclaredField("imie");
+		
+		
+				
+
+	}
+
+}

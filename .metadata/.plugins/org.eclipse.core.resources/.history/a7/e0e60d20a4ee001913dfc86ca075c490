@@ -1,0 +1,13 @@
+package naukajavy;
+
+import java.util.*;
+
+class Ocena {
+	String imie;
+	String nazwisko;
+	String wartoœæ;
+	String przedmiot;
+	String nazwisko_nauczyciela;
+	
+	
+}

@@ -1,0 +1,13 @@
+package naukajavy;
+
+public class Zadanie3_2 {
+
+	public static void main(String[] args) {
+		Osoba osobka = new Osoba();
+		osobka.ustaw("olek","gorecki",2000,10000);
+		System.out.println(osobka.wypisz());
+		System.out.println(osobka.ileLat());
+		System.out.println(naEuro(4.2));
+	}
+
+}

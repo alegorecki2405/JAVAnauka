@@ -1,0 +1,29 @@
+package naukajavy;
+
+import java.util.*;
+
+public class Zadanie2_1 {
+
+	public static void main(String[] args) {
+		String zmienna;
+		Scanner odczyt = new Scanner(System.in);
+		zmienna = odczyt.nextLine();
+		Hashtable<String,Integer> tab = new Hashtable<String,Integer>();
+		
+		tab.put("styczeñ",1);
+		tab.put("styczeñ",2);
+		tab.put("styczeñ",3);
+		tab.put("styczeñ",4);
+		tab.put("styczeñ",5);
+		tab.put("styczeñ",6);
+		tab.put("styczeñ",7);
+		tab.put("styczeñ",8);
+		tab.put("styczeñ",9);
+		tab.put("styczeñ",10);
+		tab.put("styczeñ",11);
+		tab.put("styczeñ",12);
+		
+		System.out.println(tab.get("styczeñ"));
+	}
+
+}

@@ -1,0 +1,28 @@
+package naukajavy;
+
+import java.util.*;
+
+public class Zadanie2_1 {
+
+	public static void main(String[] args) {
+		String zmienna;
+		Scanner odczyt = new Scanner(System.in);
+		zmienna = odczyt.nextLine();
+		Hashtable<Integer,String> tab = new Hashtable<Integer,String>();
+		
+		tab.put(1,"styczeñ");
+		tab.put(2,"luty");
+		tab.put(3,"marzec");
+		tab.put(4,"kwiecieñ");
+		tab.put(5,"maj");
+		tab.put(6,"czerwiec");
+		tab.put(7,"lipiec");
+		tab.put(8,"sierpieñ");
+		tab.put(9,"wrzesieñ");
+		tab.put(10,"pazdziernik");
+		tab.put(11,"listopad");
+		tab.put(12,"grudzien");
+		System.out.println(tab.get("styczeñ"));
+	}
+
+}

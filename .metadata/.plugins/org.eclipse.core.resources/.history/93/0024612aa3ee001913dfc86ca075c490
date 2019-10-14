@@ -1,0 +1,12 @@
+package naukajavy;
+
+public class Zadanie3_1 {
+
+	public static void main(String[] args) {
+		Ocena ocenka = new Ocena();
+		ocenka.imie = "5";
+		System.out.println(ocenka.imie);
+
+	}
+
+}

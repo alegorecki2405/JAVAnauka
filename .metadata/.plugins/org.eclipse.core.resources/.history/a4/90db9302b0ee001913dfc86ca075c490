@@ -1,0 +1,7 @@
+package naukajavy;
+
+public class Trojkat {
+	private int bok1;
+	private int bok2;
+	private int bok3;
+}

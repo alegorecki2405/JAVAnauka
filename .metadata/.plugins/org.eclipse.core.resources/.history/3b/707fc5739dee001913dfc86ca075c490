@@ -1,0 +1,17 @@
+package naukajavy;
+
+import java.util.*;
+
+public class Zadanie2_3 {
+
+	public static void main(String[] args) {
+		int[] tab = new int[6];
+		Random r = new Random();
+		for(int i= 0;i<6;i++)
+		{
+			tab[i]==1;
+		}
+		System.out.println(tab[0]);
+	}
+
+}

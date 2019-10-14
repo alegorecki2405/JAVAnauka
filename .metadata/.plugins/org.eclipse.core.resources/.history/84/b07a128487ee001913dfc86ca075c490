@@ -1,0 +1,15 @@
+package naukajavy;
+
+public class Zadanie1 {
+
+	public static void main(String[] args) {
+		System.out.println("hello world");
+		int wiek;
+		wiek = 10;
+		if(wiek == 10)
+		{
+			System.out.println("ma 10 latek");
+		}
+	}
+
+}

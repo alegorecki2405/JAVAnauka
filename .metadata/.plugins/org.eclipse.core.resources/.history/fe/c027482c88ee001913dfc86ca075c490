@@ -1,0 +1,21 @@
+package naukajavy;
+
+public class Zadanie1 {
+
+	public static void main(String[] args) {
+		System.out.println("hello world");
+		int wiek;
+		wiek = 11;
+		switch(wiek) {
+		case <=5:
+			System.out.println("bobas");
+			break;
+		case <=10:
+			System.out.println("bachor z podstawowki");
+			break;
+		
+		}
+			
+	}
+
+}

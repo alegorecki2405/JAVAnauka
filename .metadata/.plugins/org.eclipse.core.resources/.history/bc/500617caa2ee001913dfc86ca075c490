@@ -1,0 +1,5 @@
+package naukajavy;
+
+public class Ocena {
+	int x;
+}

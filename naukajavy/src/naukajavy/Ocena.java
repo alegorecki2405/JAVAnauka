@@ -1,0 +1,23 @@
+package naukajavy;
+
+import java.util.*;
+
+public class Ocena {
+	private String imie;
+	private String nazwisko;
+	private String wartoœæ;
+	private String przedmiot;
+	private String nazwisko_nauczyciela;
+	
+	//getter
+	public String getName() {
+		return imie;
+	}
+	
+	//setter
+	public void setName(String noweImie) {
+		this.imie = noweImie;
+	}
+	
+	
+}

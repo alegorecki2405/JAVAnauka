@@ -1,0 +1,35 @@
+package naukajavy;
+
+import java.util.*;
+
+public class Zadanie2_3 {
+	
+	public static boolean czytab(int liczba,int [] tab) {
+		for(int i =0;i<6;i++)
+		{
+			if(liczba == tab[i])
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+
+	public static void main(String[] args) {
+		int[] tab = new int[6];
+		Random r = new Random();
+		for(int i= 0;i<6;i++)
+		{
+			boolean y = r.nextInt(49)+1;
+			if
+		}
+		Scanner odczyt = new Scanner(System.in);
+		int x = odczyt.nextInt();
+		System.out.println(czytab(x,tab));
+		
+		
+	}
+
+}
+tab[i]=r.nextInt(49)+1;
+System.out.println(tab[i]);

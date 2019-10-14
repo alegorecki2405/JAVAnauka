@@ -1,0 +1,14 @@
+package naukajavy;
+
+public class Zadanie2 {
+
+	public static void main(String[] args) {
+		char x;
+		switch(x) {
+		case 1:{
+			System.out.println("poniedzia³ek");
+		}
+		}
+	}
+
+}

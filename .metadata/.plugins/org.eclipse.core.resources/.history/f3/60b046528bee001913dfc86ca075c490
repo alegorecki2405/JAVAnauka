@@ -1,0 +1,14 @@
+package naukajavy;
+
+public class Zadanie4 {
+	int x;
+	public void obwod() {
+		System.out.println("no japierdole czemu error");
+	}
+	public static void main(String[] args) {
+		
+		obwod();
+
+	}
+
+}

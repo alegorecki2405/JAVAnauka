@@ -1,0 +1,15 @@
+package naukajavy;
+
+public class Zadanie4 {
+	int x;
+	public void obwod() {
+		System.out.println("no japierdole czemu error");
+	}
+	public static void main(String[] args) {
+		
+		Zadanie4 obj = new Zadanie4();
+		obj.obwod();
+
+	}
+
+}

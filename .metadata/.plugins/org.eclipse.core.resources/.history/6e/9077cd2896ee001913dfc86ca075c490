@@ -1,0 +1,18 @@
+package naukajavy;
+
+import java.util.*;
+
+public class Zadanie2_2 {
+
+	public static void main(String[] args) {
+		Scanner odczyt = new Scanner(System.in);
+		String haslo;
+		String hasla[] = {"QAZwsx#1","XD","XDDDDDDD"};
+		do {
+			haslo = odczyt.next();
+		}
+		while()
+
+	}
+
+}

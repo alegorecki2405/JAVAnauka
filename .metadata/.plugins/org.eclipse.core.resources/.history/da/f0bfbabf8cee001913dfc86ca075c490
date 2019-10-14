@@ -1,0 +1,23 @@
+package naukajavy;
+
+public class Zadanie4 {
+	static int obwod(int a,int b,int c) {
+		int obwod = a+b+c;
+		return obwod;
+	}
+	static bool czy_prostokatny(int a,int b,int c) {
+		System.out.println(Math.sqrt(a,2));
+	}
+	public static void main(String[] args) {
+		int a,b,c;
+		a=10;
+		b=11;
+		c=22;
+		
+		System.out.println(obwod(a,b,c));
+		
+		czy_prostakatny(1,2,3);
+
+	}
+
+}

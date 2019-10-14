@@ -1,0 +1,18 @@
+package naukajavy;
+
+import java.lang.reflect.Field;
+
+public class Zadanie3_1 {
+
+	public static void main(String[] args) {
+		Ocena ocenka1 = new Ocena();
+		Ocena ocenka2 = new Ocena();
+		ocenka1.setName("olo");
+		System.out.println(ocenka1.getName());
+		
+		
+				
+
+	}
+
+}

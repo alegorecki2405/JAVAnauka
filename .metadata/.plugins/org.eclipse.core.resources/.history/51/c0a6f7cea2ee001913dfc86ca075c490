@@ -1,0 +1,9 @@
+package naukajavy;
+
+import java.util.*;
+
+public class Ocena {
+	String imie;
+	
+	
+}

@@ -1,0 +1,19 @@
+package naukajavy;
+
+public class Osoba {
+	private String imie;
+	private String nazwisko;
+	private int rok;
+	private int pensja;
+	
+	public void ustaw(String nimie,String nnazwisko, int nrok, int npensja) {
+		this.imie = nimie;
+		this.nazwisko = nnazwisko;
+		this.rok = nrok;
+		this.pensja = npensja;
+		
+	}
+	public String wypisz() {
+		return imie, nazwisko ,rok, pensja;
+	}
+}

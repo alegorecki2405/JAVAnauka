@@ -1,0 +1,13 @@
+package naukajavy;
+public class Ocena{
+	int x;
+}
+public class Zadanie3_1 {
+
+	public static void main(String[] args) {
+		Ocena ocenka = new Ocena();
+		ocenka.x = 5;
+
+	}
+
+}

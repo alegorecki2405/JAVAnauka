@@ -1,0 +1,17 @@
+package naukajavy;
+
+import java.util.*;
+
+public class Zadanie2_1 {
+
+	public static void main(String[] args) {
+		String zmienna;
+		Scanner odczyt = new Scanner(System.in);
+		zmienna = odczyt.nextLine();
+		Hashtable<Integer,String> tab = new Hashtable<Integer,String>();
+		
+		tab.put(1,"styczeñ");
+		System.out.println(tab.getOrDefault(zmienna,"ehh"));
+	}
+
+}

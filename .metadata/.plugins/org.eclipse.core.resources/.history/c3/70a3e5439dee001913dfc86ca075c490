@@ -1,0 +1,14 @@
+package naukajavy;
+
+import java.util.*;
+
+public class Zadanie2_3 {
+
+	public static void main(String[] args) {
+		int[] tab;
+		Random r = new Random();
+		tab[0] = 1;
+
+	}
+
+}
